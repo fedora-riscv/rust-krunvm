@@ -1,0 +1,11 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index b2e9a5c..f2c2083 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -32,6 +32,3 @@ version = "1.0.120"
+ 
+ [dependencies.serde_derive]
+ version = "1.0.120"
+-
+-[dependencies.text_io]
+-version = "0.1.8"
