@@ -5,7 +5,7 @@
 
 Name:           rust-krunvm
 Version:        0.1.6
-Release:        %autorelease
+Release:        %autorelease -e rv64
 Summary:        Create microVMs from OCI images
 
 License:        Apache-2.0
@@ -16,7 +16,7 @@ Source:         %{crates_source}
 Patch:          krunvm-fix-metadata.diff
 
 # This crate depends on libkrun and it's only available on x86_64 and aarch64
-ExclusiveArch:  x86_64 aarch64
+ExclusiveArch:  x86_64 aarch64 riscv64
 
 BuildRequires:  rust-packaging >= 23
 
